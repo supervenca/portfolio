@@ -71,21 +71,20 @@ a {
     grid-row: 1;
 }
 footer {
-    background-color: #73b2bc;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    display: block;
+    bottom:0px;
+    font-size: 12px;
     width: 100%;
+    text-align: center;
 }
 footer a {
-    color: white;
+    color: #2F6F77;
 }
 
 
 
 
-
+/* BREAKPOINTS */
 
 @media all and (min-width: 769px) {
     .container {
