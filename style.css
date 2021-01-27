@@ -44,7 +44,7 @@ a {
     text-align: center;
 }
 
-.profile_foto {
+.profile_photo {
     border-radius: 50%;
     width: 175px;
     height: 175px;
@@ -72,7 +72,7 @@ a {
 }
 footer {
     display: block;
-    bottom:0px;
+    bottom: 0;
     font-size: 12px;
     width: 100%;
     text-align: center;
@@ -95,7 +95,7 @@ footer a {
     .container {
         margin-left: 10px;
         margin-right: 10px;
-        grid-gap: 0px;
+        grid-gap: 0;
     }
     .profile_card {
         margin-left: 10px;
