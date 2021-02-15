@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c08d5e-1b27-4982-9e28-a35da6872ac9" name="Default Changelist" comment="description upd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="27c08d5e-1b27-4982-9e28-a35da6872ac9" name="Default Changelist" comment="project &amp; skills added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +90,7 @@
       <workItem from="1610272664791" duration="2099000" />
       <workItem from="1611768371936" duration="1519000" />
       <workItem from="1612476160056" duration="182000" />
-      <workItem from="1613224772217" duration="1496000" />
+      <workItem from="1613224772217" duration="1583000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1606669206834</created>
@@ -151,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612476318325</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="project &amp; skills added">
+      <created>1613227618686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613227618686</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +182,7 @@
     <MESSAGE value="project added" />
     <MESSAGE value="project added2" />
     <MESSAGE value="description upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="description upd" />
+    <MESSAGE value="project &amp; skills added" />
+    <option name="LAST_COMMIT_MESSAGE" value="project &amp; skills added" />
   </component>
 </project>
