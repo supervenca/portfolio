@@ -24,6 +24,12 @@ h2 {
     line-height: 150%;
     
 }
+.no-marin {
+    margin-bottom: 0;
+}
+.margin-top-15 {
+    margin-top: 15px;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -144,12 +150,14 @@ button {
 }
 .project__tools {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: start;
     margin-top: 15px;
 }
 .project__tools > * {
     margin-right: 15px;
+    margin-bottom: 10px;
 }
 .project__tools__text{
     font-weight: 500;
@@ -260,8 +268,11 @@ button {
     .profile-bar__wrapper {
         grid-row-gap: 15px;
     }
+    .profile-bar__links {
+        margin-top: 15px;
+    }
     .profile-bar__icon {
-        font-size: 30px;
+        font-size: 33px;
     }
     .profile-bar__photo {
         width: 150px;
@@ -291,7 +302,7 @@ button {
 @media all and (max-width: 900px){
     .container{
         grid-template-rows: 150px max-content;
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
     }
     .profile-bar{
         grid-column: 1 / -1;
@@ -301,19 +312,18 @@ button {
         position: fixed;
         z-index: 2;
         padding: 20px 40px;
-        justify-content: space-evenly;
     }
     .profile-bar__wrapper {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         position: relative;
         max-width: 100%;
         grid-column-gap: 20px;
     }
     .profile-bar__icon {
-        
+        font-size: 33px;
     }
     .profile-bar__photo {
         width: 100px;
@@ -325,9 +335,64 @@ button {
     .profile-bar__links {
         grid-row-gap: 15px;
         grid-column-gap: 15px;
+        margin-top: 0;
     }
     .main{
         grid-column: 1 / -1;
         grid-row: 2 / 3;
     }
-} 
+    .projects{
+        grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+    }
+    .languages {
+        grid-column: 1 / -1;
+    }
+}
+
+/*mobile*/
+@media all and (max-width: 560px){
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    .container{
+        grid-template-rows: 290px max-content;
+    }
+    .profile-bar{
+        height: 290px;
+        position: relative;
+    }
+    .profile-bar__wrapper {
+        flex-direction: column;
+        height: 250px;
+        align-content: center;
+        grid-row-gap: 10px;
+    }
+    .profile-bar__icon {
+        font-size: 30px;
+    }
+    .profile-bar__links{
+        grid-column-gap: 25px;
+    }
+    .main{
+        padding: 0;
+    }
+    .main > * {
+        box-shadow: none;
+        padding: 0;
+    }
+    .projects{
+        grid-template-columns: repeat(auto-fill, minmax(250px, max-content));
+        
+    }
+}
+
+@media all and (max-width: 330px){
+    body {
+        font-size: 16px;
+    }
+}
