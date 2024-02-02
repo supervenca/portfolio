@@ -190,7 +190,7 @@ button {
 .education__link {
     margin-right: 8px;
 }
-.work_experience {
+.work-experience {
     grid-column: 1 / 8;
 }
 .languages {
@@ -201,7 +201,7 @@ button {
 
 /*medium desktops*/
 @media all and (max-width: 1541px) {
-    .work_experience {
+    .work-experience {
         grid-column: 1 / 7;
     }
     .languages {
@@ -258,7 +258,7 @@ button {
     h2 {
         font-size: 1.3em;
     }
-    .skills, .work_experience, .education {
+    .skills, .work-experience, .education {
         grid-column: 1 / -1;
     }
     .languages {
